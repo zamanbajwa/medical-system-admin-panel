@@ -1,0 +1,177 @@
+body {
+    min-width: 320px;
+    /*background:url('http://www.drumangle.com/sandbox/wp/21813/wp-content/uploads/2014/01/Login-Screen-Background-Wood-5.jpg') no-repeat;*/
+    /*background:url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c2.jpg') no-repeat;*/
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #4b5e60;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    margin: 0;
+    padding: 0;
+    color: gold;
+}
+
+.login {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.login h4 {
+    margin: 0 0 8px;
+    font-size: 42px;
+    line-height: 46px;
+}
+
+.login-header {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-header p {
+    margin: 0 0 10px;
+}
+
+
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
+
+.login-form {
+    border: 2px solid #7cc0c2;
+    /*background:#4facff;*/
+    border-radius: 5px;
+}
+
+.login-form h3 {
+    text-align: left;
+    color: #fff;
+    margin: 0 0 7px;
+}
+
+.login-form {
+    box-sizing: border-box;
+    padding: 30px 15px;
+    margin: 5% auto;
+    text-align: center;
+}
+
+
+/*.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em 0;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    display: block;
+    outline: none;
+    padding-left: 10px;
+}
+*/
+
+.register-area {
+    padding: 0 30px;
+}
+
+.register-area:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.login-form input[type="button"] {
+    height: 30px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.sign-up {
+    color: #f2f2f2;
+    margin-left: -70%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.no-access {
+    color: #E86850;
+    margin: 20px 0px 20px -57%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.try-again {
+    color: #f2f2f2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#form-errors {
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #800000;
+    overflow: hidden;
+}
+
+.list-none {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.alert.alert-error {
+    color: #800000;
+}
+
+.alert.alert-success {
+    color: #008000;
+}
+
+.error-list {
+    margin: 0 0 10px;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 13px;
+    color: #dd5353;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+/*Media Querie*/
+
+@media only screen and (min-width: 150px) and (max-width: 530px) {
+    .login-form h3 {
+        text-align: center;
+        margin: 0;
+    }
+    .sign-up,
+    .no-access {
+        margin: 10px 0;
+    }
+    .login-button {
+        margin-bottom: 10px;
+    }
+}

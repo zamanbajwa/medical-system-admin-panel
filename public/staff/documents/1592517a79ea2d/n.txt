@@ -1,0 +1,6 @@
+math function
+switch statement
+Global
+constant
+password encryption
+oop
