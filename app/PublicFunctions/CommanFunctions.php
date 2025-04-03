@@ -121,7 +121,7 @@ function get_time_zone($lat, $lng) {
     $timestamp = strtotime(date('Y-m-d'));
 //        $lat  	   = $request['lat'];
 //        $lng  	   = $request['lng'];
-    $curl_url = "https://maps.googleapis.com/maps/api/timezone/json?location=$lat,$lng&timestamp=$timestamp&key=AIzaSyDdxlXEZmkr-7RJsFN7wqX5bJpBUTfzhxk";
+    $curl_url = "https://maps.googleapis.com/maps/api/timezone/json?location=$lat,$lng&timestamp=$timestamp&key=Key_to_be_Placed_here";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $curl_url);
     curl_setopt($ch, CURLOPT_HEADER, false);
